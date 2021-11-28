@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 50px;
+}
+.typed-text{
+	font-weight: 600;
+	font-size: 2.5rem;
+	color:#fff;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
+}
+
+
+
+
+.myId {
+	border-radius: 5px;
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.myId-footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+.call-button{
+	width: fit-content;
+	
+}
+
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+body {
+	background: linear-gradient(
+		to right,
+		#8e54e9,
+		#4776e6
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.video-container {
+	width: 500px;
+	
+	margin-bottom: 50px;
+	position: fixed;
+	border-radius: 10px;
+	padding-bottom: 35px;
+	background-color: #DFD8CA;
+	box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+	transition-timing-function: ease-in;
+    transition: all 3s;
+}
+
+.myVideo-userAccept{
+	z-index: 2;
+	position: absolute;
+	right: 0;
+	bottom: 158px;
+	
+}
+
+.showUserVideo{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px
+
+}
+.showMyVideo{
+	display: block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px
+}
+
+.closeMyVideo{
+	display: none;
+}
+.video-container-footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.video-container-footer > h3{
+	padding: 10px;
+	border:1px solid lightgray;
+	border-radius: 999px;
+	box-shadow: 0px 1px 17px -9px rgba(0,0,0,0.75);
+	background-color: #FBF3E4;
+}
+.endcall-button{
+	background-color: #B91646 !important;
+}
+

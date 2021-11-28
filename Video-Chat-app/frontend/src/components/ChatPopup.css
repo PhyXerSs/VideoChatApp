@@ -1,0 +1,21 @@
+.sc-chat-window{
+    z-index: 999;
+}
+.sc-message--content.sent .sc-message--text{
+    max-width: max-content;
+    padding: 7px !important;
+    background-color: #E5890A !important;
+}
+
+.sc-message--content.received .sc-message--text{
+    background-color: #f0bb58 !important;
+    max-width: max-content;
+    padding: 7px !important;
+    color: white;
+}
+
+.sc-message{
+    width: 335px;
+    margin-left: 10px ;
+    /* padding-right: 20px; */
+}
